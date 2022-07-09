@@ -1,0 +1,27 @@
+Feedback Desafío - Collage de imágenes
+
+Requerimientos:
+
+1. Integrar express-fileupload a Express. (1 Punto)
+
+    Puntaje obtenido: 1
+
+2. Definir que el límite para la carga de imágenes es de 5MB. (2 Puntos)
+
+    Puntaje obtenido: 2
+
+3. Responder con un mensaje indicando que se sobrepasó el límite especificado. (2 Puntos)
+
+    Puntaje obtenido: 2
+
+4. Crear una ruta POST /imagen que reciba y almacene una imagen en una carpeta pública del servidor. Considerar que el 
+formulario envía un payload con una propiedad “position”, que indica la posición del collage donde se deberá mostrar la 
+imagen. (3 Puntos)
+
+    Puntaje obtenido: 3
+
+5. Crear una ruta GET /deleteImg/:nombre que reciba como parámetro el nombre de una imagen y la elimine de la carpeta en 
+donde están siendo alojadas las imágenes. Considerar que esta interacción se ejecuta al hacer click en alguno de los 
+números del collage. (2 Puntos)
+
+    Puntaje obtenido: 2
